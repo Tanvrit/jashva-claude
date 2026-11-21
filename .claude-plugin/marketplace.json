@@ -1,0 +1,15 @@
+{
+  "name": "tanvrit-jashva",
+  "owner": {
+    "name": "Tanvrit Private Limited",
+    "email": "contact@tanvrit.com"
+  },
+  "plugins": [
+    {
+      "name": "jashva-preview",
+      "source": "./plugins/jashva-preview",
+      "description": "Preview a Jashva invitation and its programme from a link or code you choose to share."
+    }
+  ],
+  "description": "Jashva invitation previews from links or codes you choose to share."
+}

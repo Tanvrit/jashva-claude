@@ -1,2 +1,20 @@
-# jashva-claude
-Jashva public invitation preview connector for Claude; plugin files only.
+# Jashva for Claude
+
+A standalone plugin marketplace for Jashva’s public invitation preview. This repository contains connector configuration and documentation, not Jashva’s app or server source.
+
+## Install in Claude Code
+
+```text
+/plugin marketplace add Tanvrit/jashva-claude
+/plugin install jashva-preview@tanvrit-jashva
+```
+
+See [plugin documentation](plugins/jashva-preview/README.md) for capabilities, privacy and support. The hosted MCP endpoint is https://mcp.jashva.com/mcp. No account linking or private account tools are enabled.
+
+## Directory status
+
+Anthropic connector and plugin directory submissions are pending. Being available in this repository is not Anthropic approval or a directory listing.
+
+## License
+
+The standalone plugin configuration and documentation use MIT. Jashva’s app, server, hosted service and trademarks are not relicensed. The bundled icon identifies Jashva; no trademark rights are granted.
