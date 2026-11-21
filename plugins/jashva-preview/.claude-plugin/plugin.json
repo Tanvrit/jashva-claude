@@ -1,0 +1,31 @@
+{
+  "name": "jashva-preview",
+  "displayName": "Jashva Preview",
+  "version": "1.0.0",
+  "description": "Preview a Jashva invitation and its programme from a link or code you choose to share.",
+  "author": {
+    "name": "Tanvrit Private Limited",
+    "email": "contact@tanvrit.com",
+    "url": "https://tanvrit.com"
+  },
+  "homepage": "https://github.com/Tanvrit/jashva-claude/tree/main/plugins/jashva-preview",
+  "privacyPolicyUrl": "https://jashva.com/privacy/",
+  "supportUrl": "https://jashva.com/support/",
+  "termsOfServiceUrl": "https://jashva.com/terms/",
+  "icon": "./icon.png",
+  "keywords": [
+    "jashva",
+    "invitations",
+    "events",
+    "gatherings"
+  ],
+  "mcpServers": {
+    "jashva-preview": {
+      "type": "http",
+      "url": "https://mcp.jashva.com/mcp"
+    }
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Tanvrit/jashva-claude",
+  "documentationUrl": "https://github.com/Tanvrit/jashva-claude/tree/main/plugins/jashva-preview"
+}
