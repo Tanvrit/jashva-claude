@@ -1,10 +1,17 @@
-# Jashva Preview
+# Jashva
 
 Preview a Jashva invitation and its programme using an invitation link or code that you choose to share. Jashva supports weddings and many other kinds of gathering.
 
 ## What you can do
 
 Ask Claude to preview your supplied invitation, summarize its public programme, or explain the event dress code. The connector returns available title, dates, place text and programme, with a link to open Jashva. Missing dates and time-zone offsets remain unknown.
+
+Try either of these requests in Claude:
+
+- “Design an invitation for Avery’s garden birthday lunch on 12 June at 1 pm, hosted by Robin at Meadow Hall.”
+- “Create a biodata for Mira Example. Include Pune, architecture, Marathi and English, and an interest in illustrated maps.”
+
+Both tools return a document card, its text and an editable RTF file. Open the file in Word, Pages or LibreOffice to edit or print it. Include the details you want on the page. Creation happens in the chat using those details. Jashva does not save the draft, send it to guests or create a public link. The conversation and downloaded files remain under the controls of your Claude account and device.
 
 ## Setup
 
@@ -16,7 +23,7 @@ In Claude Code, install from the Tanvrit marketplace:
 ```
 
 
-Connect to `https://mcp.jashva.com/mcp` as a custom remote connector, or load this plugin in a compatible Claude client. No Jashva sign-in or API key is required for public preview. Directory approval is pending; this repository is not evidence of a published listing.
+Connect to `https://mcp.jashva.com/v2/mcp` as a custom remote connector, or load this plugin in a compatible Claude client. No Jashva sign-in or API key is required for public preview. Directory approval is pending; this repository is not evidence of a published listing.
 
 Use a link or code you have permission to share. For example, ask: “Preview this Jashva invitation: [paste your invitation link].” Never guess or enumerate invitation codes.
 

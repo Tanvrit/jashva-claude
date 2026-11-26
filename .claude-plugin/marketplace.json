@@ -8,8 +8,8 @@
     {
       "name": "jashva-preview",
       "source": "./plugins/jashva-preview",
-      "description": "Preview a Jashva invitation and its programme from a link or code you choose to share."
+      "description": "Create editable invitation cards and biodata, or read the schedule from a shared Jashva invitation."
     }
   ],
-  "description": "Jashva invitation previews from links or codes you choose to share."
+  "description": "Create editable invitation cards and biodata, or read the schedule from a shared Jashva invitation."
 }

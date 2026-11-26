@@ -1,8 +1,8 @@
 {
   "name": "jashva-preview",
-  "displayName": "Jashva Preview",
-  "version": "1.0.0",
-  "description": "Preview a Jashva invitation and its programme from a link or code you choose to share.",
+  "displayName": "Jashva",
+  "version": "1.1.0",
+  "description": "Create editable invitation cards and biodata, or read the schedule from a shared Jashva invitation.",
   "author": {
     "name": "Tanvrit Private Limited",
     "email": "contact@tanvrit.com",
@@ -17,12 +17,17 @@
     "jashva",
     "invitations",
     "events",
-    "gatherings"
+    "gatherings",
+    "invitation cards",
+    "biodata",
+    "personal introductions",
+    "weddings",
+    "birthdays"
   ],
   "mcpServers": {
     "jashva-preview": {
       "type": "http",
-      "url": "https://mcp.jashva.com/mcp"
+      "url": "https://mcp.jashva.com/v2/mcp"
     }
   },
   "license": "MIT",

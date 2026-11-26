@@ -1,6 +1,6 @@
 # Jashva for Claude
 
-A standalone plugin marketplace for Jashva’s public invitation preview. This repository contains connector configuration and documentation, not Jashva’s app or server source.
+Create editable invitation cards and biodata, or read the schedule from a shared Jashva invitation. This repository contains connector configuration and documentation, not Jashva’s app or server source.
 
 ## Install in Claude Code
 
@@ -9,7 +9,7 @@ A standalone plugin marketplace for Jashva’s public invitation preview. This r
 /plugin install jashva-preview@tanvrit-jashva
 ```
 
-See [plugin documentation](plugins/jashva-preview/README.md) for capabilities, privacy and support. The hosted MCP endpoint is https://mcp.jashva.com/mcp. No account linking or private account tools are enabled.
+See [plugin documentation](plugins/jashva-preview/README.md) for capabilities, privacy and support. The hosted MCP endpoint is https://mcp.jashva.com/v2/mcp. No account linking or private account tools are enabled.
 
 ## Directory status
 
